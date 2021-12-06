@@ -9,7 +9,11 @@ html,body
 }
 
 .sobre{
-  margin-top: 7em;
+  margin-top: 9em;
+}
+
+.fontes{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 nav#nav{
@@ -51,11 +55,12 @@ a:hover{
   }
   
   .logo {
-    color: purple;
+    color: rgb(235, 20, 152);
     font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-left: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   }
 
   .button-icon {
@@ -227,7 +232,7 @@ a:hover{
   .title{
     text-align: center;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-weight: bold;
     }    
 
@@ -262,8 +267,19 @@ a:hover{
      position: relative;
      margin-top: 0px;
    }
+
+   .carre_couleur2
+   {
+     width:200px;
+     height: 200px;
+     display: inline-block;
+     position: relative;
+     margin-top: -15em;
+   }
+
    .base_hov .retract
    {
+     margin-top: 15em;
      -webkit-transition: all 200ms ease-in;
      -webkit-transform-origin: 50% 20%; 
      -webkit-transform: scale(1);
@@ -278,7 +294,7 @@ a:hover{
      transform: scale(1);
      width:200px;
      height: 200px;
-     position: absolute;
+     position: relative;
      z-index: 2;
      left:0;
    }
@@ -297,8 +313,8 @@ a:hover{
    {
      width: 180px;
      padding:10px;
-     bottom:0; 
-     position:absolute;
+     bottom:0;
+     position:relative;
      z-index: 1; 
      text-align: left;
    }
@@ -306,8 +322,9 @@ a:hover{
    {
      color:#666666;
      font-size:25px;
+     text-align: center;
      font-weight: 400;
-     font-family:'Roboto';
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
    }
    .middle_acced
    {
@@ -341,9 +358,10 @@ a:hover{
      transform: scale(1);
      width:200px;
      height: 200px;
-     position: absolute;
+     position: relative;
      z-index: 2;
      left:0;
+    
    }
    .base_hov2:hover .retract2
    {
@@ -379,11 +397,6 @@ a:hover{
      font-weight: 400;
      font-family:'Roboto';
    }
-
-   .title2{
-     text-align: center;
-   }
-
    /* --------------------------------------------------------- Mobile menu -------------------------------------------------------- */
 
 body,ul {
