@@ -9,8 +9,28 @@ html,body
 }
 
 .sobre{
-  margin-top: 9em;
+  padding-top: 10%;
 }
+
+@media (max-width: 1050px) {
+  .sobre{
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 650px) {
+  .sobre{
+    padding-top: 35%;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre{
+    padding-top: 45%;
+  }
+}
+
+
 
 .fontes{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -237,7 +257,7 @@ a:hover{
     }    
 
   .sobre{
-    background-color: #161718;
+    background-color: #494b4d;
     }    
 
   p{
@@ -251,12 +271,18 @@ a:hover{
     border-style: none;
   }  
   
+  .subtitle{
+    margin-bottom: -1em;
+    margin-top: 1em;
+  }
+
   .conhecimentos{
     padding-top: 1%;
     background-color:rgb(58, 1, 58);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: -10em;
   }    
  
    .carre_couleur
